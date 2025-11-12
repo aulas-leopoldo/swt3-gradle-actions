@@ -12,4 +12,8 @@ class AppTest {
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 
+    @Test void appCheckGreetingMessage() {
+        App classUnderTest = new App();
+        assertEquals("Hello World!", classUnderTest.getGreeting(), "mensagens não batem!");
+    }
 }
