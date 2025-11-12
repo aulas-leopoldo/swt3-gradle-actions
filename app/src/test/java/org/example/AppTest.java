@@ -14,6 +14,6 @@ class AppTest {
 
     @Test void appCheckGreetingMessage() {
         App classUnderTest = new App();
-        assertEquals("Hello World!", classUnderTest.getGreeting(), "mensagens não batem!");
+        assertEquals("Ola mundo!", classUnderTest.getGreeting(), "mensagens não batem!");
     }
 }
